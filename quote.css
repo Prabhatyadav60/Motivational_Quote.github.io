@@ -1,0 +1,126 @@
+.container{
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: rgb(121, 121, 235);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.box{
+    overflow-y:scroll;
+    font-size: 23px;
+    font-weight: 900;
+    font-family: 'Barlow', sans-serif;
+font-family: 'Dancing Script', cursive;
+    margin-bottom: 60%;
+    color: white;
+    border: 2px solid white ;
+   background-image: url("img2.jpg");
+background-blend-mode:darken;
+   background-size:cover;
+   background-repeat:no-repeat ;
+    box-shadow: 7px 8px 15px 2px black;
+    border-radius: 15px;
+    top: 24%;
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+}
+.box h1{
+  font-size: 31px;
+}
+.box h3{
+    font-size: 28px;
+  }
+#btn{
+    height: 35px;
+    width: 100px;
+    background-color: #ccd3dc;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 3px 4px 10px 2px black;
+}
+@media only screen and (max-width:721px){
+    .box{
+        top: 25%;
+        left: 11%;
+        height: 283px;
+        width: 450px;
+    }
+    .box h1 {
+        font-size: 35px;
+    }
+    
+    
+      .box h3{
+          font-size: 17px;
+        }
+}
+@media only screen and (max-width:541px){
+    .box{
+        top: 20%;
+        left: 9%;
+        height: 100%;
+        width: 90%;
+    }
+    .box h1{
+        font-size: 24px;
+      }
+}
+@media only screen and (max-width:421px){
+    .container{
+        width: 112%;
+        height: 108vh;
+    }
+    
+}
+@media only screen and (max-width:554px){
+    .box {
+        top: 25%;
+        left: 11%;
+        height: 55%;
+        width: 75%;
+    }
+    .box h1 {
+        font-size: 32px;
+    }
+}
+@media only screen and (max-width:503px){
+    box {
+        top: 25%;
+        left: 10%;
+        height: 370px;
+        width: 302px;
+    }
+    
+}
+@media only screen and (max-width:484px){
+    box {
+        top: 25%;
+        left: 10%;
+        height: 370px;
+        width: 200px;
+    }
+    
+}
+
+@media only screen and (max-width:401px){
+
+    .box {
+        top: 20%;
+        left: 15%;
+        height: 67%;
+        width: 75%;
+    }
+    container {
+        width: 108%;
+        height: 103vh;
+    }
+}
+
