@@ -13,8 +13,6 @@
     overflow-y:scroll;
     font-size: 23px;
     font-weight: 900;
-    font-family: 'Barlow', sans-serif;
-font-family: 'Dancing Script', cursive;
     margin-bottom: 60%;
     color: white;
     border: 2px solid white ;
@@ -33,10 +31,17 @@ background-blend-mode:darken;
     background-color: white;
 }
 .box h1{
+     font-family: 'Barlow', sans-serif;
+    font-family: 'Dancing Script', cursive;
   font-size: 31px;
 }
 .box h3{
     font-size: 28px;
+  }
+ blockquote{
+    color: #ebea00;
+    font-family: 'Mooli', sans-serif;
+font-family: 'Poppins', sans-serif;
   }
 #btn{
     height: 35px;
